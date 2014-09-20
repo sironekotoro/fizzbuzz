@@ -3,4 +3,3 @@ perl:
   - "5.20"
   - "5.18"
   - "5.16"
-script: perl fizzbuzz.pl
