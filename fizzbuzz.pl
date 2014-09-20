@@ -1,7 +1,9 @@
 use strict;
 use warnings;
 
-foreach ( 1 .. 100 ) {
+my $num = 100;
+
+foreach ( 1 .. $num ) {
     if ( $_ % 15 == 0 ) {
         print "fizzbuzz", "\n";
     }
